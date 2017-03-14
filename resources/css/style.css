@@ -1,0 +1,70 @@
+/*Global*/
+
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+body > div {
+  display: flex;
+}
+
+a {
+  color: inherit;
+}
+
+/*Header*/
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  height: 69px;
+  width: 100%;
+  top: 0px;
+}
+
+.logo img {
+  height: 50px;
+  margin: 10px;
+  color: seashell;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  text-decoration: underline;
+}
+
+.navigation li {
+  margin: 0px 10px;
+}
+
+/*Mission*/
+
+div.mission {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  margin: 70px auto;
+}
+
+.mission {
+  background-color: black;
+  width: 1200px;
+  margin: 0px;
+  padding: 7px 0px;
+}
+
+/*Featured*/
