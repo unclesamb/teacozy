@@ -41,6 +41,7 @@ div.header {
   justify-content: flex-end;
   list-style-type: none;
   text-decoration: underline;
+  margin: 0px 10px;
 }
 
 .navigation li {
@@ -102,4 +103,48 @@ div.featured-container {
 
 .featured h4 {
   margin: 10px 0px;
+}
+ /*Locations*/
+
+ div.locations {
+  height: 500px;
+  width: 1200px;
+  margin: 30px auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/img-locations-background.jpg")
+ }
+
+.specific-location-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.specific-location {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin: 15px 20px;
+}
+
+.locations h2 {
+  margin: 0px;
+}
+
+/*Footer*/
+
+.footer {
+  flex-direction: column;
+  height: 200px;
+}
+
+.footer h5 {
+  margin: 20px 0px;
+}
+
+body > h5 {
+  text-align: left;
+  margin-left: 20px;
 }
