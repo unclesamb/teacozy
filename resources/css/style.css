@@ -19,7 +19,7 @@ a {
 
 /*Header*/
 
-.header {
+div.header {
   justify-content: space-between;
   align-items: center;
   position: fixed;
@@ -50,14 +50,13 @@ a {
 /*Mission*/
 
 div.mission {
-  display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
   background-image: url("../images/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
-  margin: 70px auto;
+  margin: 70px auto 40px auto;
 }
 
 .mission {
@@ -68,3 +67,39 @@ div.mission {
 }
 
 /*Featured*/
+
+div.featured-container {
+  flex-flow: column wrap;
+  width: 1000px;
+  margin: 40px auto;
+}
+
+.featured-individual-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.featured {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 250px;
+  margin: 10px 15px;
+}
+
+.featured-container > h2,
+.featured-container > h4 {
+  margin: 0px;
+  padding: 7px 0px;
+}
+
+.featured img {
+  width: 300px;
+  height: 200px;
+  margin: 0px;
+}
+
+.featured h4 {
+  margin: 10px 0px;
+}
